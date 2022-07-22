@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #1a1a3e;
+    overflow: hidden;
+}
+
+nav {
+    background-color: #16213e;
+    padding: 0 60px;
+    display: flex;
+    align-items: baseline;
+}
+
+nav h1 {
+    display: inline-block;
+    padding-left: 30px;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    font-size: 40px;
+    color: #ea5455;
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+.nav-items {
+    margin-left: auto;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 42px 15px 2px 15px;
+    margin: 0 8px;
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: #ea5455;
+}
+
+.active {
+    background-color: #ea5455;
+    color: #2d4059;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.active:hover {
+    color: aliceblue;
+}
+
+.social {
+    display: inline-block;
+    width: 20px;
+    background-color: #ea5455;
+    padding: 40px 3px 3px 3px;
+    color: #2d4059;
+    border-spacing: 10px;
+    margin: 0 5px;
+
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.social i {
+    position: relative;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0 7px 7px;
+}
+
+.social i:hover {
+  color: aliceblue;
+}
+
+.overlay {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 90px;
+    top: 35%;
+    z-index: 1;
+}
+
+.container1 {
+    width: 140px;
+    height: 370px;
+    background: url(1.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+    transform: translateY(-80px);
+}
+
+.container2 {
+    width: 140px;
+    height: 370px;
+    background: url(2.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+}
+
+.container3 {
+    width: 140px;
+    height: 370px;
+    background: url(3.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+    transform: translateY(-80px);
+}
+
+.container4 {
+    width: 140px;
+    height: 370px;
+    background: url(4.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+}
+
+main {
+    width: 46%;
+    float: right;
+    position: relative;
+    z-index: 2;
+    top: 30%;
+}
+
+main h1 {
+    font-size: 150px;
+    letter-spacing: 20px;
+    transform: translate(60px , 75px);
+    color: #c72c41;
+    line-height: 45px;
+    margin: 0;
+    padding-left: 25px;
+}
+
+main h1 span {
+    color: #ed6663;
+}
+
+main h5 {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 30px;
+    color: chocolate;
+    transform: translate(25px , 115px);
+    text-align: center;
+}
+
+main p {
+    width: 70%;
+    text-align: justify;
+    transform: translate(115px ,121px);
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+main button {
+    width: 175px;
+    height: 36px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid #c72c41;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    color: whitesmoke;
+    transform: translate(265px , 145px);
+}
+
+.enit {
+    font-size: 22px;
+    padding: 10px 0px 2px 10px;
+}
+
+button:hover {
+    background-color: #e94566;
+    color: #16213e;
+    font-weight: bold;
+}
